@@ -48,7 +48,7 @@ export class News extends Component {
             <div className='container my-3'>
 
                 <div className="row">
-                    <h1>News_Monkey Top head LInes</h1>
+                    <h1>News_Monkey Top head LInes!</h1>
                     {this.state.articles.map((element) => {
 
                         return <div className="col-md-4" key={element.url}>
